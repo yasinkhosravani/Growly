@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title> Growly | Mobile application </title>
+</head>
+<body style="background: rgba(171, 213, 210, 1);">
+    <div id="nav" class="bg-white position-fixed " style="width: 7%;margin-top:10rem ;display: flex;left: -5%;z-index: 10000000;">
+        
+        <ul class="nav flex-column w-75">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="/index.html">index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="signin.html">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Profile.html">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Kickcenter.html">3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="Howyouare.html">4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Getstart.html">5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Dashboard.html">6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contractiontimer.html">7</a>
+              </li>
+          </ul>
+        <button onclick="btn()" class="w-25 border-0 bg-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+          </svg></button>
+    </div>
+    <div class="w-100 d-flex" style="height: 20rem;">
+        <div class="w-40 " style="height: 27rem;z-index: 1000;">
+            <svg class="ml-100 mt-5" width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="68" cy="68" r="68" fill="#3EB09B"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M53.2742 26.1214C51.8278 26.4079 49.3764 27.0542 47.8267 27.5573C46.277 28.0604 43.7704 28.6578 42.2568 28.8849C37.8807 29.5406 33.3094 32.1341 29.6742 36.0229C27.6523 38.1863 27.3765 38.8338 29.0927 37.3889C30.3324 36.3448 33.1531 34.7822 33.3826 35.0123C33.457 35.0867 32.8728 35.774 32.0843 36.5399C29.0799 39.4579 27.1567 45.1165 27.2007 50.9089L27.2266 54.2927L27.73 52.2248C28.3728 49.5858 29.4556 47.1235 30.6972 45.4763L31.6744 44.1799L31.4448 47.5442C31.2848 49.8858 31.4636 53.1381 32.0324 58.2405C32.8969 65.9937 32.8311 67.9984 31.6364 70.3423C30.8952 71.7959 30.7303 73.1622 31.2081 73.8852C31.3599 74.1149 32.0287 74.5819 32.694 74.9233C33.3597 75.2643 34.084 75.8802 34.3042 76.2915C34.5916 76.8295 35.0909 77.0397 36.0808 77.0397C37.1519 77.0397 37.3574 77.1401 37.0069 77.4909C36.3509 78.1474 36.44 78.7418 37.558 81.1793C39.0728 84.4819 40.4339 85.1301 45.7604 85.0854C48.2009 85.0647 50.9408 84.7959 52.4522 84.4289C53.8599 84.0871 55.1049 83.8074 55.2191 83.8074C55.5715 83.8074 54.9614 87.9838 54.1856 90.8845C53.051 95.1264 52.2429 96.3953 49.3125 98.5351C46.0982 100.882 45.65 102.43 48.6318 100.887C50.1717 100.09 50.4366 100.502 49.2081 101.785C47.9747 103.074 47.9514 103.359 49.0796 103.359C49.5804 103.359 50.3874 102.875 50.9607 102.231C52.1171 100.932 52.9571 100.691 52.3462 101.834C52.131 102.236 51.7872 102.669 51.5817 102.796C51.0137 103.147 51.1354 104.111 51.7478 104.111C52.0445 104.111 52.9083 103.476 53.6664 102.701C55.0196 101.317 55.2045 101.506 54.4035 103.453C54.0098 104.41 54.6916 104.27 56.5573 103.009C57.9402 102.075 58.2896 101.568 58.8584 99.6679L59.5286 97.4278L58.5458 95.4114C57.4173 93.0968 57.9117 93.6371 59.9535 96.9503C60.7346 98.217 61.531 99.1558 61.7242 99.0366C62.3455 98.6524 62.8493 96.1021 62.876 93.207C62.9109 89.3859 63.5834 90.9992 63.6424 95.0459C63.6976 98.8287 62.7272 100.815 58.8295 104.898C56.7177 107.11 56.0776 108.006 56.3879 108.317C56.6982 108.628 57.1644 108.466 58.1656 107.702C59.8006 106.454 60.2886 106.714 59.1646 108.236C58.2303 109.501 58.1461 109.986 58.8156 110.247C59.074 110.347 59.9051 109.727 60.6632 108.868C61.421 108.01 62.1705 107.437 62.3286 107.595C62.4868 107.753 62.4162 108.083 62.1716 108.328C61.6843 108.816 61.5573 110.506 62.0089 110.497C62.577 110.485 63.1397 109.91 63.7506 108.716C64.7372 106.79 65.5111 107.138 64.7421 109.162C64.1872 110.623 65.0028 110.386 66.8786 108.544C68.216 107.23 68.4895 106.719 68.4895 105.533C68.4895 104.554 68.8314 103.632 69.5745 102.605C71.6292 99.7668 72.225 95.8757 71.3019 91.3271C71.1348 90.5033 71.1787 90.5266 71.657 91.5151C73.059 94.4135 72.6826 98.9125 70.7339 102.54L69.6587 104.543L70.924 105.072C72.5575 105.755 78.2225 106.742 80.5063 106.742H82.281L82.4944 104.205C82.7097 101.648 83.8593 96.4318 84.1445 96.7175C84.229 96.8021 84.1227 97.9707 83.9081 99.3145C83.5073 101.826 83.7996 104.587 84.6573 106.393C85.4477 108.058 87.121 109.056 89.483 109.27C92.3018 109.526 93.7718 109.019 96.8837 106.72C98.2669 105.699 99.5574 104.862 99.752 104.862C100.682 104.862 102.25 107.079 102.5 108.749C102.821 110.89 103.544 111.038 105.459 109.355C107.428 107.625 107.747 106.247 107.725 99.5698C107.704 93.116 107.334 91.4733 105.816 91.0917C104.379 90.7308 102.962 91.5617 99.2588 94.9328C95.7104 98.1636 94.507 98.9193 96.8209 96.4637C99.2674 93.8676 100.336 88.9339 99.243 85.282C98.2549 81.9824 95.1487 79.7047 91.2048 79.3877C88.2789 79.1527 85.6322 79.7287 81.9095 81.4109C79.7842 82.3711 78.4269 82.7471 77.121 82.737C75.4011 82.7238 72.985 81.8557 73.0087 81.2597C73.0143 81.1101 74.3247 80.2262 75.9203 79.2956C79.9777 76.9288 85.8899 70.9954 87.7375 67.4352C90.6867 61.753 91.5774 54.6537 90.0938 48.653C89.2099 45.0774 86.8321 40.2903 84.3868 37.1622C77.3381 28.1468 65.055 23.7881 53.2742 26.1214Z" fill="white"/>
+            </svg>
+            <h1 class="text-white font-figma ml-100 " style="font-size: 64px;">Growly</h1>
+            <p class="ml-100 mt-16 text-white">Watch your baby grow, log your symptoms and learn what to expect week by week with Growly Pregnancy!</p>
+            <a href="https://behance.net/wazwasim" class="text-success ml-100">behance.net/wazwasim</a>
+            <a  href="https://www.figma.com/file/qs0E4ymPJ9IFI4xhPf98GY/Growly-%7C-Mobile-application-(Community)?node-id=79%3A2" class="d-grid ml-100 mt-8">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="50" height="50" rx="7" fill="#323232"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25 25C25 21.5482 27.7982 18.75 31.25 18.75C34.7018 18.75 37.5 21.5482 37.5 25C37.5 28.4518 34.7018 31.25 31.25 31.25C27.7982 31.25 25 28.4518 25 25Z" fill="#1ABCFE"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 37.5C12.5 34.0482 15.2982 31.25 18.75 31.25H25V37.5C25 40.9518 22.2018 43.75 18.75 43.75C15.2982 43.75 12.5 40.9518 12.5 37.5Z" fill="#0ACF83"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25 6.25V18.75H31.25C34.7018 18.75 37.5 15.9518 37.5 12.5C37.5 9.04822 34.7018 6.25 31.25 6.25H25Z" fill="#FF7262"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 12.5C12.5 15.9518 15.2982 18.75 18.75 18.75H25V6.25H18.75C15.2982 6.25 12.5 9.04822 12.5 12.5Z" fill="#F24E1E"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 25C12.5 28.4518 15.2982 31.25 18.75 31.25H25V18.75H18.75C15.2982 18.75 12.5 21.5482 12.5 25Z" fill="#A259FF"/>
+                    </svg>
+                    
+                </a>
+                
+        </div>
+        <div class="w-60  d-none d-lg-flex" style="height: 42rem" >
+           
+            
+          <img  src="/img/Kick1.png" alt="" style="background-repeat: no-repeat;background-size:cover;height: 2rem; margin-left: 300px;">
+          <img  src="/img/Contraction Timer.png" alt="" style="background-repeat: no-repeat;background-size:cover;height: 2rem; margin-left: -117px;margin-top: 2rem;margin-top: 34px;">  
+          <img  src="/img/Dashboard.png" alt="" style="background-repeat: no-repeat;background-size:cover;height: 43rem;" class="position-absolute">
+          <img  src="/img/Kick counter.png" alt="" style="background-repeat: no-repeat;background-size:cover;height: 43rem;top: -36px;right: 30px;" class="position-absolute" >
+          <img  src="/img/drug1.png" alt="" style="background-repeat: no-repeat;background-size:cover;height: 17rem;right: 208px;  top: 420px;" class="position-absolute"> 
+     
+
+        </div>
+    </div>
+    <div class="w-100" style="height: 20rem;">
+        <svg width="100%" height="370" viewBox="0 0 1440 389" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M0 0L60 58C120 115 240 231 360 223C480 216 600 87 720 43C840 0 960 43 1080 58C1200 72 1320 58 1380 51L1440 43V389H1380C1320 389 1200 389 1080 389C960 389 840 389 720 389C600 389 480 389 360 389C240 389 120 389 60 389H0V0Z" fill="#00866A"/>
+            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M-12 24L61.5417 82C135.083 139 282.167 255 429.25 247C576.333 240 723.417 111 870.5 67C1017.58 24 1164.67 67 1311.75 82C1458.83 96 1605.92 82 1679.46 75L1753 67V413H1679.46C1605.92 413 1458.83 413 1311.75 413C1164.67 413 1017.58 413 870.5 413C723.417 413 576.333 413 429.25 413C282.167 413 135.083 413 61.5417 413H-12V24Z" fill="#00866A"/>
+            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M-120 0L-52.7083 58C14.5833 115 149.167 231 283.75 223C418.333 216 552.917 87 687.5 43C822.083 0 956.667 43 1091.25 58C1225.83 72 1360.42 58 1427.71 51L1495 43V389H1427.71C1360.42 389 1225.83 389 1091.25 389C956.667 389 822.083 389 687.5 389C552.917 389 418.333 389 283.75 389C149.167 389 14.5833 389 -52.7083 389H-120V0Z" fill="#00866A"/>
+        </svg>
+            
+    </div>
+    <script>
+        let i=0
+    function btn(){
+        i++
+         if(!(i%2)==0){
+        const myElement = document.getElementById("nav");
+      return  myElement.style.left = 0;
+    } if(i%2==0){
+            const myElement = document.getElementById("nav");
+      return   myElement.style.left = "-5%";
+        } 
+        
+    }
+</script>
+</body>
+</html>
+
+
+    
+  
+

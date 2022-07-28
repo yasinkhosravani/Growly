@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>How you are</title>
+
+    
+
+</head>
+<body style="background-color: #F2F6FC;">
+    <div id="nav" class="bg-white position-fixed " style="width: 7%;margin-top:10rem ;display: flex;left: -5%;z-index: 10000000;">
+        
+        <ul class="nav flex-column w-75">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="/index.html">index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="signin.html">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Profile.html">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Kickcenter.html">3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="Howyouare.html">4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Getstart.html">5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Dashboard.html">6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contractiontimer.html">7</a>
+              </li>
+          </ul>
+        <button onclick="btn()" class="w-25 border-0 bg-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+          </svg></button>
+    </div>
+   <div class="mx-5">
+
+        <div class="container">
+            <div class="ml-16 d-flex  mt-24 ">
+                <div class="w-40">
+                    <button class="border-0" style="background-color: rgba(62, 176, 155, 0);"><i class="bi bi-arrow-left col-1 display-1" style="color: rgba(37, 57, 111, 1);"></i></button>
+                        
+                </div>
+                <p class=" w-50 h1  my-auto  align-items-center " style="color:#25396F;margin-left: -3rem;">How you are</p>
+                    
+            </div>
+         </div>  
+
+        <div class="mt-37 rounded-3 p-3 bg-white">
+            <p class="mr-16 h2 mt-3 ml-50" style="color:  #398AA5;">Symptoms</p>
+                <div class="justify-content-between d-flex w-90 mx-auto" style="border: 1px solid #398AA5; border-radius: 10px; height: 5rem;">
+                    <input  style="color: #ACACAC;z-index: 1000;"  type="text" value="What’s your body telling you?" class="h4 w-100  ms-1  mx-auto my-auto font-family-sans  border-0 ">
+                    <button class="mtb-auto me-2 " id="button-img"></button>
+                </div>       
+                <div  style="width: 100%;height: 100%;background-color: white;">
+                    <div class="mb-5">
+                        <div class=" p-5 bg-white ">
+                            <p class="h1 ms-sm-3 font-family-sans font-weight-500 font-style-normal line-height-150">Recent</p>
+                            <div class="container">
+                            <div class="row gx-2 gy-2 ">
+                                
+                                <button type="button" class="h4 col-2  text-align-center btn btn-outline-secondary font-family-sans">nothing</button>
+                                <button type="button" class="h4 col-4 text-align-center col-sm-6 btn btn-outline-secondary ms-2 font-family-sans">fatisue / exhaustion</button>
+                                <button type="button" style="color: #398AA5; border: 0; background-color: #B0D0DB;" class="h4 col-3 ms-2 btn btn-outline-secondary font-family-sans">dizziness<i class=" ml-8  ml-8 bi bi-check-circle"></i></button>
+                                <button type="button" style="color: #398AA5; border: 0; background-color: #B0D0DB;" class="h4 col-6 text-align-center btn btn-outline-secondary ">morning sickness / nausea <i class=" ml-8  ml-8 bi bi-check-circle"></i></button>
+                                <button type="button" class="col-4 btn btn-outline-secondary ms-2 font-family-sans">shortness of breath</button>
+                                <button type="button" class="col-2  btn btn-outline-secondary  font-family-sans">acen</button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class=" p-5 bg-white ">
+                            <p class="h1 font-family-sans font-weight-500 font-style-normal line-height-150">Selected</p>
+                            <div class="d-flex m-1">
+                                <button type="button" style="color:#61A1B7; border:1px double #61A1B7;" class="btn btn-outline-secondary font-figma line-height-150 font-weight-500">dizziness<i class=" ml-8  ml-8 bi bi-x-circle"></i></button>
+                                <button type="button" style="color:#61A1B7; border:1px double #61A1B7;" class="btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">morning sickness / nausea <i class=" ml-8  ml-8  ml-8 bi bi-x-circle"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                
+                    <p class="mr-16 h2 mt-3 ml-50" style="color:  #E18AB6;">Medications</p>
+
+                    <div class="justify-content-between d-flex w-90 mx-auto" style="border: 1px solid #E7A1C5; border-radius: 10px; height: 5rem;">
+                        <input  style="color: #ACACAC;z-index: 1000;"  type="text" value="What’s your body telling you?" class="h4 w-100  ms-1  mx-auto my-auto font-family-sans  border-0 ">
+                        <button class="mtb-auto me-2 " id="button-img"></button>
+                    </div> 
+                </div>
+        
+                <div class="mb-5">
+                    <div class=" p-5 bg-white ">
+                        <p class="h1 font-family-sans font-weight-500 font-style-normal line-height-150">Recent</p>
+                        <div class="container">
+                            <div class="row gx-2 gy-2 ">
+                            <button type="button" style="color: #E18AB6; border: 0; background-color: #F3D0E2;" class="col-4 btn btn-outline-secondary  font-figma line-height-150 font-weight-500">dizziness<i class=" ml-8  ml-8  ml-8 bi bi-check-circle"></i></button>
+                            <button type="button" class="col-3 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">shortness of breath</button>
+                            <button type="button" class="col-4 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">shortness of breath</button>
+                            <button type="button" class="col-3 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">acen</button>
+                        </div>
+                    </div>
+                    <div class=" p-5 bg-white ">
+                        <p class="h1 font-family-sans font-weight-500 font-style-normal line-height-150">Selected</p>
+                        <div class="d-flex m-1">
+                            <button type="button" style="color:#E7A1C5; border:1px double #E18AB6;" class="btn btn-outline-secondary font-figma line-height-150 font-weight-500">Benadryl<i class=" ml-8  ml-8  ml-8 bi bi-x-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p class="mr-16 h2 mt-3 ml-50" style="color:  #45A4A7;">Mood</p>
+                <div class="justify-content-between d-flex w-90 mx-auto" style="border: 1px solid #B5DBDC; border-radius: 10px; height: 5rem;">
+                    <input  style="color: #ACACAC;z-index: 1000;"  type="text" value="What’s your body telling you?" class="h4 w-100  ms-1  mx-auto my-auto font-family-sans  border-0 ">
+                    <button class="mtb-auto me-2 " id="button-img"></button>
+                </div> 
+                <div  style="width: 100%;height: 100%;background-color: white;">
+                    <div class="mb-5">
+                        <div class=" p-5 bg-white ">
+                            <p class="h1 font-family-sans font-weight-500 font-style-normal line-height-150">Recent</p>
+                            <div class="container">
+                                <div class="row gx-2 gy-2 ">
+                                <button type="button" style="color: #45A4A7; border: 0; background-color: #B0D0DB;" class=" col-2 btn btn-outline-secondary font-figma line-height-150 font-weight-500">calm<i class=" ml-8  ml-8 bi bi-check-circle"></i></button>
+                                <button type="button" style="color: #45A4A7; border: 0; background-color: #B0D0DB;" class="col-3 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">moody<i class=" ml-8  ml-8 bi bi-check-circle"></i></button>
+                                <button type="button" class="col-2 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">in love</button>
+                                <button type="button" class="col-2 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">weepy</button>
+                                <button type="button" class="col-2 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500">worried</button>
+                                <button type="button" class="col-2 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500 ml-16">angry</button>
+                                <button type="button" class="col-3 btn btn-outline-secondary ml-16 font-figma line-height-150 font-weight-500 ">overwhelmed</button>
+                            </div>
+                        </div>
+                        <div class=" p-5 bg-white ">
+                            <p class="h1 font-family-sans font-weight-500 font-style-normal line-height-150">Selected</p>
+                            <div class="d-flex m-1">
+                                <button type="button" style="color: #45A4A7; border:1px double #B0D0DB;" class="btn btn-outline-secondary font-figma line-height-150 font-weight-500">moody<i class=" ml-8  ml-8  ml-8 bi bi-x-circle"></i></button>
+                                <button type="button" style="color: #45A4A7; border:1px double #B0D0DB;" class="btn btn-outline-secondary font-figma line-height-150 font-weight-500 ml-16">calm<i class=" ml-8  ml-8  ml-8 bi bi-x-circle"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p class="mr-16 h2 mt-3 ml-50" style="color:  #00866A;">Cycle length</p>
+                 <div class="justify-content-between d-flex w-90   mx-auto mt-2" style="border: 1px solid #3EB09B; border-radius: 10px; height: 5rem;">
+                <input style="color: black;"  type="text" value="24 Days " class="h2 w-75 ml-16 mtb-auto font-family-sans font-weight-500 font-style-normal line-height-150 border-0">
+                <button class="mtb-auto mr-16" id="button-img-3"></button>
+                </div>       
+                
+                <hr>
+
+                <p class="mr-16 h2 mt-3 ml-50" style="color:  #1AB0B0;">Sleep</p>
+                 <div class="justify-content-between d-flex w-90 mx-auto mt-2 mt-2" style="border: 1px solid #48C0C0; border-radius: 10px; height: 5rem;">
+                <input style="color: black;"  type="text" value="8.20 hrs" class="h2 w-75 ml-16 mtb-auto font-family-sans font-weight-500 font-style-normal line-height-150 border-0">
+                <button class="mtb-auto mr-16" id="button-img-4"></button>
+                </div>  
+
+                <hr>
+
+                <p class="mr-16 h2 mt-3 ml-50" style="color:  #7A0B44;">Temprature</p>
+                 <div class="justify-content-between d-flex w-90 mx-auto mt-2 mt-2" style="border: 1px solid #CA9DB4; border-radius: 10px; height: 5rem;">
+                <input style="color: #ACACAC;"  type="text" value="94.34" class="h2 w-75 ml-16 mtb-auto font-family-sans font-weight-500 font-style-normal line-height-150 border-0">
+                <button class="mtb-auto mr-16" id="button-img-5"></button>
+                </div>  
+
+                <hr>
+
+                <p class="mr-16 h2 mt-3 ml-50" style="color:  #7B97A5;">Weight</p>
+                 <div class="justify-content-between d-flex w-90 mx-auto mt-2 mt-2" style="border: 1px solid #95ACB7; border-radius: 10px; height: 5rem;">
+                <input style="color: #ACACAC;"  type="text" value="71.54." class="h2 w-75 ml-16 mtb-auto font-family-sans font-weight-500 font-style-normal line-height-150 border-0">
+                <button class="mtb-auto mr-16" id="button-img-6"></button>
+                </div>  
+
+        </div>
+
+        <div class="d-flex  mt-5 justify-content-end mb-3 ">
+            <button type="button" class="btn btn-outline-success btn-lg rounded-2">Cancel</button>
+            <button type="button" class="btn btn-success btn-lg rounded-2 ml-16">Ok</button>
+        </div>
+
+        
+   </div>
+   <script>
+    let i=0
+function btn(){
+    i++
+     if(!(i%2)==0){
+    const myElement = document.getElementById("nav");
+  return  myElement.style.left = 0;
+} if(i%2==0){
+        const myElement = document.getElementById("nav");
+  return   myElement.style.left = "-5%";
+    } 
+    
+}
+</script>
+</body>
+</html>

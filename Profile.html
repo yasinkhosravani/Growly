@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .font-weight-500{
+        font-weight:500
+        }
+        .w-90{
+            width: 90%;
+        }
+    </style>
+    <title>Profile</title>
+</head>
+<body>
+    <div id="nav" class="bg-white position-fixed " style="width: 7%;margin-top:10rem ;display: flex;left: -5%;z-index: 10000000;">
+        
+        <ul class="nav flex-column w-75">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="/index.html">index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="signin.html">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Profile.html">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="Kickcenter.html">3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="Howyouare.html">4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Getstart.html">5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Dashboard.html">6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contractiontimer.html">7</a>
+              </li>
+          </ul>
+        <button onclick="btn()" class="w-25 border-0 bg-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+          </svg></button>
+    </div>
+    <div  style="background-color:#3EB09B ;margin: auto 100px;">
+            <div class="container">
+                <div class="ms-2 d-flex  mt-3 ">
+                    <div  style="width: 40%;">
+                        <button class="border-0" style="background-color: rgba(62, 176, 155, 0);"><i class="bi bi-arrow-left col-1 display-1 text-white" ></i></button>
+                            
+                    </div>
+                    <p class=" w-25 display-5 my-auto text-white ps-lg-4" >Profile</p>
+                        
+                
+            
+        </div>
+         <div class="mt-3 " style="padding-left: auto;padding-right: auto; text-align: center;">
+            <div class="ellipse" style="background-image: url(/img/girl112.jpeg);background-repeat: no-repeat;background-size:cover;">
+                <button class="ellipse1"><i class="bi bi-camera"></i></button>
+            </div>
+            <p class="font-weight-500 text-white align-items-center">Theresa Webb</p>
+        </div>
+        <div>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between">
+                <p class="m-lg-1 pt-10">Edit profile</p>
+                <i class="bi bi-arrow-right-short font-size-2r" ></i>
+                    
+            </button>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between mt-2">
+                <p class="m-lg-1 pt-10">My health info</p>
+                <i class="bi bi-arrow-right-short font-size-2r" ></i>   
+            </button>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between mt-2">
+                <p class="m-lg-1 pt-10" >Notifications</p>
+                <i class="bi bi-arrow-right-short font-size-2r" style="font-size: 2rem;"></i>   
+            </button>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between mt-2">
+                <p class="m-lg-1 pt-2" >Settings</p>
+                <i class="bi bi-arrow-right-short font-size-2r" ></i>                      
+            </button>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between mt-2">
+                <p class="m-lg-1 pt-2" >Technical support</p>
+                <i class="bi bi-arrow-right-short font-size-2r" ></i>                     
+            </button>
+            <button class="w-90 p-2 border border-dark bg-white m-auto rounded d-flex justify-content-between mt-2">
+                <p class="m-lg-1 text-danger pt-2" >Sign Out</p>
+                <i class="bi bi-arrow-right-short font-size-2r" ></i>                       
+            </button>
+            
+
+            
+        </div>
+        <div class="mt-2" style="text-align:end;    margin-right: 10px">
+           <button class="border-0 "  style="background-color: rgba(62, 176, 155, 0);">
+                <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 0.999985C21.0424 1.67546 19.9821 2.19209 18.86 2.52999C18.2577 1.8375 17.4573 1.34668 16.567 1.12391C15.6767 0.901145 14.7395 0.957181 13.8821 1.28444C13.0247 1.6117 12.2884 2.19439 11.773 2.9537C11.2575 3.71302 10.9877 4.61232 11 5.52998V6.52998C9.24263 6.57555 7.50127 6.1858 5.93101 5.39543C4.36074 4.60506 3.01032 3.43862 2 1.99998C2 1.99998 -2 11 7 15C4.94053 16.398 2.48716 17.0989 0 17C9 22 20 17 20 5.49998C19.9991 5.22144 19.9723 4.94358 19.92 4.66999C20.9406 3.66348 21.6608 2.3927 22 0.999985Z" fill="white"/>
+                </svg>
+            </button> 
+            <button class="border-0 "  style="background-color: rgba(62, 176, 155, 0);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" fill="white"/>
+                <path d="M16 11.37C16.1234 12.2022 15.9812 13.0522 15.5937 13.799C15.2062 14.5458 14.5931 15.1514 13.8416 15.5297C13.0901 15.9079 12.2384 16.0396 11.4077 15.9059C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1902 8.22768 13.4229 8.09402 12.5922C7.96035 11.7615 8.09202 10.9099 8.47028 10.1584C8.84854 9.40685 9.45414 8.79374 10.2009 8.40624C10.9477 8.01874 11.7977 7.87658 12.63 8C13.4789 8.12588 14.2648 8.52146 14.8716 9.1283C15.4785 9.73515 15.8741 10.5211 16 11.37Z" stroke="#3EB09B" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.5 6.5H17.51" stroke="#3EB09B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </button>
+            <button class="border-0 "  style="background-color: rgba(62, 176, 155, 0);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" fill="white"/>
+                </svg>
+            </button>
+                
+                
+                
+        </div> 
+    </div>
+    <script>
+        let i=0
+    function btn(){
+        i++
+         if(!(i%2)==0){
+        const myElement = document.getElementById("nav");
+      return  myElement.style.left = 0;
+    } if(i%2==0){
+            const myElement = document.getElementById("nav");
+      return   myElement.style.left = "-5%";
+        } 
+        
+    }
+</script>
+</body>
+</html>
